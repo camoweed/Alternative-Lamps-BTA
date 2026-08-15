@@ -6,6 +6,6 @@ Simple BTA! mod which adds redstone lamps.
 
 Textures by [callmeiko](https://callmeiko.neocities.org/). 
 
-A lot of this mod referenced [Better With Enchanting](https://github.com/Redart15/BetterWithEnchanting) and the recipes from Extra Dyables so credit to redart15 and ho.
+A lot of this mod referenced [Better With Enchanting](https://github.com/Redart15/BetterWithEnchanting) and the recipes from Extra Dyables so credit to redart15 and horiuchii.
 
 Thanks a lot to both.
