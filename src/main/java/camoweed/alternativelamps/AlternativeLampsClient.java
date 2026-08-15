@@ -8,8 +8,6 @@ import net.minecraft.client.render.texture.stitcher.TextureRegistry;
 import turniplabs.halplibe.event.defs.ClientEvents;
 import turniplabs.halplibe.helper.TextureHelper;
 import turniplabs.halplibe.util.dependency.Key;
-
-import static camoweed.alternativelamps.AlternativeLampsMod.LOGGER;
 import static camoweed.alternativelamps.AlternativeLampsMod.MOD_ID;
 
 public class AlternativeLampsClient implements ClientModInitializer {
@@ -38,6 +36,5 @@ public class AlternativeLampsClient implements ClientModInitializer {
 		dispatcher.addDispatch(new BlockModelGenericLamp<>(AlternativeLampsBlocks.ALT_LAMP_ACTIVE,"alternativelamps:block/alternative_lamp/active/%s","alternativelamps:block/alternative_lamp/active/%s"));
 		dispatcher.addDispatch(new BlockModelGenericLamp<>(AlternativeLampsBlocks.ALT_LAMP_INVERTED_IDLE,"alternativelamps:block/alternative_lamp/idle_inverted/%s","alternativelamps:block/alternative_lamp/active_inverted/%s"));
 		dispatcher.addDispatch(new BlockModelGenericLamp<>(AlternativeLampsBlocks.ALT_LAMP_INVERTED_ACTIVE,"alternativelamps:block/alternative_lamp/active_inverted/%s","alternativelamps:block/alternative_lamp/active_inverted/%s"));
-		LOGGER.info("i just init block models☻");
 	}
 }

@@ -2,7 +2,6 @@ package camoweed.alternativelamps;
 
 import net.minecraft.core.block.Block;
 import net.minecraft.core.block.BlockLogicLamp;
-import net.minecraft.core.block.Blocks;
 import net.minecraft.core.block.entity.TileEntity;
 import net.minecraft.core.entity.player.Player;
 import net.minecraft.core.enums.EnumDropCause;

@@ -1,10 +1,7 @@
 package camoweed.alternativelamps;
 
 import net.minecraft.core.block.Block;
-import net.minecraft.core.block.BlockLogicLamp;
 import net.minecraft.core.block.Blocks;
-import net.minecraft.core.block.material.Materials;
-import turniplabs.halplibe.helper.BlockBuilder;
 
 import static camoweed.alternativelamps.AlternativeLampsMod.MOD_ID;
 
@@ -48,8 +45,6 @@ public class AlternativeLampsBlocks {
 			formatName("alternative_lamp_inverted_idle"),
 			14899,
 			block -> new BlockLogicAlternativeLamp(block, false, true))
-		//	.withLightEmission(15)
-		//	.withLightBlock(15)
 		);
 		ALT_LAMP_INVERTED_ACTIVE = addBlock(Blocks.register(
 			formatTranslationKey("alternative.lamp.inverted.active"),

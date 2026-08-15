@@ -1,10 +1,13 @@
 {
   "required": true,
-  "package": "camoweed.alternativelamps.mixin",
+  "package": "camoweed.alternativelamps.mixins",
   "compatibilityLevel": "JAVA_${java}",
   "injectors": {
     "defaultRequire": 1
   },
-  "mixins": [],
+  "mixins": [
+    "mixin.accessor.CreativeMenuContentsAccessor",
+    "mixin.gui.creative.CreativeMenuContentsMixin"
+  ],
   "client": []
 }

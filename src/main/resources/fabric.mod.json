@@ -3,27 +3,22 @@
 	"id": "alternativelamps",
 	"version": "${version}",
 	"name": "Alternative Lamps",
-	"description": "Adds an alternative more moderner lamps.",
-	"authors": [
-		"camoweed_",
-		"callmeiko"
-	],
+	"description": "Adds an alternative more moderner style of lamp. Textures by callmeiko.",
+	"authors": ["camoweed_"],
+	"contributors": ["callmeiko"],
 	"contact": {
 		"homepage": "",
-		"sources": ""
+		"sources": "https://github.com/camoweed/Alternative-Lamps-BTA",
+		"issues": "https://github.com/camoweed/Alternative-Lamps-BTA/issues"
 	},
 	"icon": "icon.png",
 	"license": "CC0-1.0",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"camoweed.alternativelamps.AlternativeLampsMod"
-		],
+		"main": ["camoweed.alternativelamps.AlternativeLampsMod"],
 		"client" : ["camoweed.alternativelamps.AlternativeLampsClient"]
 	},
-	"mixins": [
-		"alternativelamps.mixins.json"
-	],
+	"mixins": ["alternativelamps.mixins.json"],
 	"depends": {
 		"fabricloader": ">=${fabricloader}",
 		"minecraft": "*",
