@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_lit",
+  "textures": {
+    "all": "alternativelamps:block/alternative_lamp/red_active"
+  }
+}
